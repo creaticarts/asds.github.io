@@ -52,10 +52,11 @@ body {
 */
 
 .card {
-    margin: 20px 7px;
+    margin: 20px;
     display: block;
     width: 400px;
     float: left;
+    justify-content: center;
     font-family: 'Pacifico';
 
 
@@ -90,4 +91,10 @@ footer {
     height: 60px;
     /* Height of the footer */
     background: #6cf;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
